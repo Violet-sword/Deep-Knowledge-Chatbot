@@ -103,7 +103,7 @@ Answer: The author has traveled extensively with his wife, Intan (who is from Ba
 Your question:
 ```
 
-now we can type "exit" to close this chatbot: 
+Now we can type "exit" to close this chatbot: 
 
 ```bash
 Your question: exit
