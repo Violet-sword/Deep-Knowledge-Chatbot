@@ -17,7 +17,7 @@ This version is set to obtain its knowledge from travel sites/blogs for better t
 
 - Python 3.11+
 - [Ollama](https://ollama.com) installed and running
-- pull LLM model and Embedding model from Ollama to local (after pulling, change line 18 and 22 of the code accordingly)
+- pull LLM model and Embedding model from Ollama to local (after pulling, update line 41 and 45 of the code accordingly)
 
 Install Python library dependencies:
 ```bash
@@ -26,7 +26,7 @@ pip install requests beautifulsoup4 langchain langchain-community langchain-olla
 
 ## Sources of Information
 
-The chat-bot is set to fetch data from specific website URLs to enrich it's knowledge base. You can change line ??? of the code to change the URLs, and it will switch the knowledge that the chat-bot is focusing on. 
+The chat-bot is set to fetch data from specific website URLs to enrich it's knowledge base. You can change line 11 to 16 of the code to change the URLs, and it will switch the knowledge that the chat-bot is focusing on. 
 
 ## How It Works
 
@@ -70,9 +70,8 @@ Type in what you want to ask when the prompt "Your question: " shows up.
 Example use of the code:
 ```bash
 <some-user-directory>:~$ python deep-knowledge-chatbot.py
-    Internal RAG Q&A Bot    
-Ask questions about cooking hacks and kitchen tips.
-This assistant is powered by a local language model and a custom knowledge base built from community-sourced cooking advice.
+    Deep Knowledge Chat-Bot    
+Ask about destinations, tips, solo travel, budgeting, and more.
 Type 'exit' to quit.
 
 Your question:
